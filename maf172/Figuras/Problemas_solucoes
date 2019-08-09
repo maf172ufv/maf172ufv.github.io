@@ -1,0 +1,3 @@
+Se tiver o problema da imagem 23, compile o código abaixo no terminal git ou terminal linux
+
+ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
