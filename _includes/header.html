@@ -1,19 +1,21 @@
-<div id="particles-js">
-  <div class="header">
-      <h1>
-        <span class="site-title">{{ site.username }}</span>
-        <span class="site-description">{{ site.user_title }}</span>
-      </h1>
-      <div class="header-icons">
-        <a aria-label="Send email" href="mailto:mat172.teste@gmail.com"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My Instagram" target="_blank" href="ainda nao tenho"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
-        <a aria-label="My Facebook" target="_blank" href="nem facebook"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
-        <a aria-label="My LinkedIn" target="_blank" href="nem linkedin :("><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
-        <a aria-label="My Github" target="_blank" href="https://github.com/maf172-teste"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
-      </div>
-      <div class="header-links">
-        <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
-      </div>
-  </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-</div>
+<header class="bar-header">
+    <a id="menu" role="button">
+        <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+    </a>
+    <h1 class="logo">
+        <a href="{{ site.baseurl }}/">
+            {{ site.name }} <span class="version">v2.0.0</span>
+        </a>
+    </h1>
+    <a id="search" class="dosearch" role="button">
+        <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
+    </a>
+    <a href="https://github.com/thiagorossener/jekflix-template" class="get-theme" role="button">
+        Get this theme!
+    </a>
+</header>
+
+<div id="mask" class="overlay"></div>
+
+{% include menu.html %}
+{% include search.html %}
