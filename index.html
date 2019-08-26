@@ -18,21 +18,8 @@ layout: main
     {% if site.show_hero %}
         <!-- Hero -->
         {% assign featured = posts.first %}
-        <section class="hero" style="background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg)">
-            <div class="pixels"></div>
-            <div class="gradient"></div>
-            <div class="content">
-                <time datetime="{{ featured.date | date_to_xmlschema }}" class="date">{{ featured.date | date: "%m.%d.%Y" }}</time>
-                <h1 class="title">{{ featured.title }}</h1>
-                <p class="description">{{ featured.subtitle }}</p>
-                <div class="buttons">
-                    <a href="{{ featured.url }}" role="button" class="button">
-                        <img src="/assets/img/icons/read.svg">
-                        <span>Read Now</span>
-                    </a>
-                </div>
-            </div>
-        </section>
+        <section class="hero" style="background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg)"> <div class="pixels"></div> <div class="gradient"></div> <div class="content"> <time datetime="2019-05-16T23:48:05+00:00" class="date">05.16.2019</time> <h1 class="title">Welcome to the desert of the real</h1> <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> <div class="buttons"> <a href="/welcome-to-the-desert-of-the-real/" role="button" class="button"> <img src="/assets/img/icons/read.svg"> <span>Read Now</span> </a> </div> </div> </section>
+            
     {% endif %}
     <!-- Posts -->
     <section id="grid" class="row flex-grid">
