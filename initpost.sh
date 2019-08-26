@@ -46,7 +46,7 @@ POSTPATH="${BINPATH}/_posts"
 DIST_FOLDER="$POSTPATH"
 
 # Set your blog URL
-BLOG_URL="https://jekflix.rossener.com/"
+BLOG_URL="https://maf172-teste.github.io"
 
 # Set your assets URL
 ASSETS_URL="assets/img/"
