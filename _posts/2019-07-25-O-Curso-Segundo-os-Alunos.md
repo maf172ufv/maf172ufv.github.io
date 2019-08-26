@@ -1,9 +1,9 @@
 ---
-title: Box of Issues
+title: O Curso segundo os Alunos
 layout: post
 background: https://cdna.artstation.com/p/assets/images/images/008/555/002/large/antoine-collignon-bigger.jpg
-subtitle: A long time coming.
-artist: artstation.com/antoinecollignon
+subtitle: Um pouco sobre o curso de Matemática de Florestal
+#artist: artstation.com/antoinecollignon
 ---
 
 I have issues.
