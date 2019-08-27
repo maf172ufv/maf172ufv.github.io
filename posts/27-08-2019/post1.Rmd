@@ -2,8 +2,6 @@
 title: "Euclides"
 author: "Mariana C. G. dos Santos - Graduanda em Matemática (UFV)"
 date: "27 de agosto de 2019"
-background: '/img/bg-post.jpg'
-layout: page
 output:
   html_document:
     fig_caption: yes
@@ -17,8 +15,7 @@ output:
     #Mostrar ou esconder os códigos (show ou hide)
     code_folding: hide
     #Diversos modelos de documentos ver outros em http://bootswatch.com/
-    #theme: united
-    layout: page
+    theme: united
 bibliography: bibfile.bib    
 #  pdf_document:
 #    fig_caption: yes
