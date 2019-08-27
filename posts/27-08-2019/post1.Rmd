@@ -1,0 +1,58 @@
+---
+title: "Euclides"
+author: "Mariana C. G. dos Santos - Graduanda em Matemática (UFV)"
+date: "27 de agosto de 2019"
+output:
+  html_document:
+    fig_caption: yes
+    force_captions: yes
+    highlight: pygments
+    toc: yes
+    #Sumário flutuante
+    #toc_float: true
+    #numerar seções
+    number_sections: true
+    #Mostrar ou esconder os códigos (show ou hide)
+    code_folding: hide
+    #Diversos modelos de documentos ver outros em http://bootswatch.com/
+    theme: united
+bibliography: bibfile.bib    
+#  pdf_document:
+#    fig_caption: yes
+#    keep_tex: yes
+#    number_sections: yes
+comments: yes
+tags: [elementos,euclides,alexandria]
+---
+
+***
+
+```{r,echo = FALSE}
+options(OutDec=",")
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introdução
+
+<p style="text-align: justify;">
+Neste post eu conto um pouco da história de Euclides, autor do livro "Os Elementos" @birnbaum1969new, @dos2010estimaccao, @Romeiro2014 e @SanchezBenites. 
+</p>
+
+#Mensagem Final e Agradecimento
+
+Agradeço ao fulano de tal pela valiosa ajuda na confecção desta apresentação e também agradeço ao ciclano pela oportunidade e pelo incentivo ao grupo! De acordo com Mario Sergio Cortella: 
+
+"Há três caminhos para o sucesso:
+
+1- Ensinar o que se sabe - Generosidade Mental
+
+2- Praticar o que se ensina - Coerência Ética
+
+3- Perguntar o que se ignora - Humildade Intelectual"
+
+    
+#Referências 
+
