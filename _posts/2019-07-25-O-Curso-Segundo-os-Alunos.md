@@ -1,7 +1,7 @@
 ---
 title: O Curso Segundo os Alunos
 layout: post
-background: https://cdna.artstation.com/p/assets/images/images/008/555/002/large/antoine-collignon-bigger.jpg
+background: /img/bg-post.jpg
 subtitle: Um pouco sobre o curso de Matemática de Florestal
 #artist: artstation.com/antoinecollignon
 ---
