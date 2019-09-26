@@ -13,7 +13,7 @@ baseurl:
 
 # Build settings
 markdown:          kramdown
-paginate:          30
+paginate:          11
 paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
